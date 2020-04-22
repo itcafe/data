@@ -1,0 +1,118 @@
+{
+  "title": "Ember FusionCharts Sample",
+  "width": 600,
+  "height": 400,
+  "type": "logmsline",
+  "dataFormat": "json",
+  "dataSource": {
+    "chart": {
+      "caption": "Human Population Growth Rate",
+      "subcaption": "Source: United Nations Population Division",
+      "xaxisname": "Year",
+      "yaxisname": "Population (In Billions)",
+      "theme": "fusion",
+      "base": "2",
+      "showlegend": 1,
+      "drawcrossline": "1",
+      "exportEnabled": 1,
+      "formatNumberScale": 0,
+      "legendPosition": "bottom",
+      "legendAllowDrag": "0",
+      "plotHighlightEffect": "fadeout|color=#D5DED9, alpha=50"
+    },
+    "categories": [
+      {
+        "category": [
+          {
+            "label": "1800"
+          },
+          {
+            "label": "1927"
+          },
+          {
+            "label": "1960"
+          },
+          {
+            "label": "1974"
+          },
+          {
+            "label": "1987"
+          },
+          {
+            "label": "1999"
+          },
+          {
+            "label": "2011"
+          },
+          {
+            "label": "2023<br>Projected"
+          },
+          {
+            "label": "2037<br>Projected"
+          },
+          {
+            "label": "2055<br>Projected"
+          },
+          {
+            "label": "2088<br>Projected"
+          }
+        ]
+      }
+    ],
+    "dataset": [
+      {
+        "seriesname": "Population",
+        "data": [
+          {
+            "value": "1",
+            "tooltext": "Population in <b>$label</b> was <b>$dataValue billion</b>"
+          },
+          {
+            "value": "2",
+            "tooltext": "Population in <b>$label</b> was <b>$dataValue billion</b>"
+          },
+          {
+            "value": "3",
+            "tooltext": "Population in <b>$label</b> was <b>$dataValue billion</b>"
+          },
+          {
+            "value": "4",
+            "tooltext": "Population in <b>$label</b> was <b>$dataValue billion</b>"
+          },
+          {
+            "value": "5",
+            "tooltext": "Population in <b>$label</b> was <b>$dataValue billion</b>"
+          },
+          {
+            "value": "6",
+            "tooltext": "Population in <b>$label</b> was <b>$dataValue billion</b>"
+          },
+          {
+            "value": "7",
+            "dashed": "1",
+            "tooltext": "Population in <b>$label</b> was <b>$dataValue billion</b>"
+          },
+          {
+            "value": "8",
+            "dashed": "1",
+            "tooltext": "Population projected to reach <b>$dataValue billion</b> by <b>$label</b>"
+          },
+          {
+            "value": "9",
+            "dashed": "1",
+            "tooltext": "Population projected to reach <b>$dataValue billion</b> by <b>$label</b>"
+          },
+          {
+            "value": "10",
+            "dashed": "1",
+            "tooltext": "Population projected to reach <b>$dataValue billion</b> by <b>$label</b>"
+          },
+          {
+            "value": "11",
+            "tooltext": "Population projected to reach <b>$dataValue billion</b> by <b>$label</b>"
+          }
+        ]
+      }
+    ]
+  }
+}

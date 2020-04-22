@@ -1,0 +1,179 @@
+{
+  "type": "msstackedcolumn2dlinedy",
+  "renderAt": "chart-container",
+  "width": "100%",
+  "height": "100%",
+  "dataFormat": "json",
+  "dataSource": {
+    "chart": {
+      "caption": "Market Share of Korean Automobile Manufacturers in US",
+      "subcaption": "2011 - 2016",
+      "pyaxisname": "Units Sold",
+      "syaxisname": "% of total market share",
+      "syaxismaxvalue": "25",
+      "theme": "fusion",
+      "showvalues": "0",
+      "drawcrossline": "1",
+      "divlinealpha": "20",
+      "exportEnabled": 1,
+      "formatNumberScale": 0,
+      "showlegend": 1,
+      "legendPosition": "bottom",
+      "legendAllowDrag": "0",
+      "plotHighlightEffect": "fadeout|color=#D5DED9, alpha=50"
+    },
+    "categories": [
+      {
+        "category": [
+          {
+            "label": "2011"
+          },
+          {
+            "label": "2012"
+          },
+          {
+            "label": "2013"
+          },
+          {
+            "label": "2014"
+          },
+          {
+            "label": "2015"
+          },
+          {
+            "label": "2016"
+          }
+        ]
+      }
+    ],
+    "dataset": [
+      {
+        "dataset": [
+          {
+            "seriesname": "Honda City",
+            "data": [
+              {
+                "value": "997281"
+              },
+              {
+                "value": "1063599"
+              },
+              {
+                "value": "1063964"
+              },
+              {
+                "value": "1152123"
+              },
+              {
+                "value": "1289128"
+              },
+              {
+                "value": "1394972"
+              }
+            ]
+          },
+          {
+            "seriesname": "Honda Civic",
+            "data": [
+              {
+                "value": "196354"
+              },
+              {
+                "value": "259493"
+              },
+              {
+                "value": "234755"
+              },
+              {
+                "value": "205717"
+              },
+              {
+                "value": "205081"
+              },
+              {
+                "value": "224978"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "dataset": [
+          {
+            "seriesname": "Hyundai Verna",
+            "data": [
+              {
+                "value": "373709"
+              },
+              {
+                "value": "391276"
+              },
+              {
+                "value": "380002"
+              },
+              {
+                "value": "411456"
+              },
+              {
+                "value": "476001"
+              },
+              {
+                "value": "500537"
+              }
+            ]
+          },
+          {
+            "seriesname": "Hyundai Sonata",
+            "data": [
+              {
+                "value": "47548"
+              },
+              {
+                "value": "73130"
+              },
+              {
+                "value": "107659"
+              },
+              {
+                "value": "179783"
+              },
+              {
+                "value": "202390"
+              },
+              {
+                "value": "156107"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "lineset": [
+      {
+        "seriesname": "Market Share %",
+        "plottooltext": "Total market share of Korean cars in $label is <b>$dataValue</b> in US",
+        "showvalues": "0",
+        "data": [
+          {
+            "value": "17.74"
+          },
+          {
+            "value": "19.23"
+          },
+          {
+            "value": "15.43"
+          },
+          {
+            "value": "12.34"
+          },
+          {
+            "value": "15.34"
+          },
+          {
+            "value": "21.17"
+          }
+        ]
+      }
+    ]
+  }
+}

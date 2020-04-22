@@ -1,0 +1,60 @@
+{
+  "type": "hled",
+  "renderAt": "chart-container",
+  "width": "100%",
+  "height": "100%",
+  "dataFormat": "json",
+  "dataSource": {
+    "chart": {
+      "caption": "RPM Monitor",
+      "lowerlimitdisplay": "Min",
+      "upperlimitdisplay": "Max",
+      "chartbottommargin": "35",
+      "theme": "fusion",
+      "showvalue": "0",
+      "exportEnabled": 1,
+      "formatNumberScale": 0,
+      "showlegend": 1,
+      "legendPosition": "bottom",
+      "legendAllowDrag": "0",
+      "plotHighlightEffect": "fadeout|color=#D5DED9, alpha=50"
+    },
+    "colorrange": {
+      "color": [
+        {
+          "minvalue": "0",
+          "maxvalue": "5"
+        },
+        {
+          "minvalue": "5",
+          "maxvalue": "7.5"
+        },
+        {
+          "minvalue": "7.5",
+          "maxvalue": "10"
+        }
+      ]
+    },
+    "value": "8",
+    "annotations": {
+      "showbelow": "1",
+      "groups": [
+        {
+          "id": "indicator",
+          "items": [
+            {
+              "id": "message",
+              "align": "CENTER",
+              "bold": "1",
+              "type": "text",
+              "text": "Full Throttle at 8 rpm",
+              "color": "#000000",
+              "x": "$chartCenterX",
+              "y": "$chartEndY-35"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

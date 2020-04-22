@@ -1,0 +1,45 @@
+{
+  "type": "heatmap",
+  "renderAt": "chart-container",
+  "width": "100%",
+  "height": "100%",
+  "dataFormat": "json",
+  "dataSource": {
+    "chart": {
+      "caption": "Body Mass Index Chart",
+      "xaxisname": "Height (cm)",
+      "yaxisname": "Weight (kg)",
+      "theme": "fusion",
+      "showvalues": "1",
+      "exportEnabled": "1",
+      "formatNumberScale": 0,
+      "plottooltext": "<b>$rowLabel {br} $columnLabel {br} $dataValue</b>"
+    },
+    "dataset": [
+      {
+        "data": []
+      }
+    ],
+    "colorrange": {
+      "gradient": "0",
+      "minvalue": "0",
+      "code": "E24B1A",
+      "startlabel": "Severe Thinness",
+      "endlabel": "Obese Class III",
+      "color": [
+        {
+          "code": "0155E8",
+          "minvalue": "0",
+          "maxvalue": "100",
+          "label": "Severe Thinness"
+        },
+        {
+          "code": "2BA8E8",
+          "minvalue": "101",
+          "maxvalue": "100000",
+          "label": "Moderate Thinness"
+        }
+      ]
+    }
+  }
+}

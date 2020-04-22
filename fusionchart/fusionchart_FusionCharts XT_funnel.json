@@ -1,0 +1,47 @@
+{
+  "type": "funnel",
+  "renderAt": "chart-container",
+  "width": "100%",
+  "height": "100%",
+  "dataFormat": "json",
+  "dataSource": {
+    "chart": {
+      "caption": "Website visits",
+      "subcaption": "Purchase - Conversion analysis for last year",
+      "decimals": "1",
+      "showvalues": "1",
+      "plottooltext": "$label: <b>$dataValue</b>",
+      "plotfillalpha": "70",
+      "theme": "fusion",
+      "streamlineddata": "0",
+      "exportEnabled": 1,
+      "formatNumberScale": 0,
+      "showlegend": 1,
+      "legendPosition": "bottom",
+      "legendAllowDrag": "0",
+      "plotHighlightEffect": "fadeout|color=#D5DED9, alpha=50"
+    },
+    "data": [
+      {
+        "label": "Website Visits",
+        "value": "17362"
+      },
+      {
+        "label": "Downloads",
+        "value": "8039"
+      },
+      {
+        "label": "Checked Pricing",
+        "value": "5509"
+      },
+      {
+        "label": "Asked for Quotation",
+        "value": "3962"
+      },
+      {
+        "label": "Purchased",
+        "value": "2397"
+      }
+    ]
+  }
+}

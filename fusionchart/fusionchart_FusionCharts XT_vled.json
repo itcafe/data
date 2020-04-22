@@ -1,0 +1,40 @@
+{
+  "type": "vled",
+  "renderAt": "chart-container",
+  "width": "100%",
+  "height": "100%",
+  "dataFormat": "json",
+  "dataSource": {
+    "chart": {
+      "caption": "LA New Years Eve",
+      "subcaption": "(Decibel Meter)",
+      "upperlimit": "200",
+      "showvalue": "0",
+      "chartbottommargin": "50",
+      "ledgap": "1",
+      "theme": "fusion",
+      "exportEnabled": 1,
+      "formatNumberScale": 0
+    },
+    "colorrange": {
+      "color": [
+        {
+          "minvalue": "100",
+          "maxvalue": "150",
+          "code": "#80dfff"
+        },
+        {
+          "minvalue": "150",
+          "maxvalue": "180",
+          "code": "#ff944d"
+        },
+        {
+          "minvalue": "180",
+          "maxvalue": "200",
+          "code": "#ff3300"
+        }
+      ]
+    },
+    "value": "125"
+  }
+}

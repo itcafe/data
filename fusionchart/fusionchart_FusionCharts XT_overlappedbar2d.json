@@ -1,0 +1,151 @@
+{
+  "type": "overlappedbar2d",
+  "renderAt": "chart-container",
+  "width": "100%",
+  "height": "100%",
+  "dataFormat": "json",
+  "dataSource": {
+    "chart": {
+      "caption": "Prescott Branch Expense Report for 2017",
+      "subcaption": "Charles Schwab Corporation",
+      "xaxisname": "Month",
+      "yaxisname": "Expense (In USD)",
+      "drawcrossline": "1",
+      "plottooltext": "<b>$seriesName</b> expense in $label was <b>$$dataValue</b>",
+      "theme": "fusion",
+      "showvalues": "0",
+      "exportEnabled": 1,
+      "formatNumberScale": 0,
+      "showlegend": 1,
+      "legendPosition": "bottom",
+      "legendAllowDrag": "0",
+      "plotHighlightEffect": "fadeout|color=#D5DED9, alpha=50"
+    },
+    "categories": [
+      {
+        "category": [
+          {
+            "label": "Jan"
+          },
+          {
+            "label": "Feb"
+          },
+          {
+            "label": "Mar"
+          },
+          {
+            "label": "Apr"
+          },
+          {
+            "label": "May"
+          },
+          {
+            "label": "Jun"
+          },
+          {
+            "label": "Jul"
+          },
+          {
+            "label": "Aug"
+          },
+          {
+            "label": "Sep"
+          },
+          {
+            "label": "Oct"
+          },
+          {
+            "label": "Nov"
+          },
+          {
+            "label": "Dec"
+          }
+        ]
+      }
+    ],
+    "dataset": [
+      {
+        "seriesname": "Budgeted",
+        "data": [
+          {
+            "value": "16500"
+          },
+          {
+            "value": "16000"
+          },
+          {
+            "value": "15000"
+          },
+          {
+            "value": "14500"
+          },
+          {
+            "value": "14000"
+          },
+          {
+            "value": "13500"
+          },
+          {
+            "value": "13000"
+          },
+          {
+            "value": "12500"
+          },
+          {
+            "value": "12500"
+          },
+          {
+            "value": "12000"
+          },
+          {
+            "value": "11500"
+          },
+          {
+            "value": "13500"
+          }
+        ]
+      },
+      {
+        "seriesname": "Actual",
+        "data": [
+          {
+            "value": "17000"
+          },
+          {
+            "value": "16300"
+          },
+          {
+            "value": "14900"
+          },
+          {
+            "value": "14300"
+          },
+          {
+            "value": "13400"
+          },
+          {
+            "value": "13100"
+          },
+          {
+            "value": "13700"
+          },
+          {
+            "value": "12100"
+          },
+          {
+            "value": "12000"
+          },
+          {
+            "value": "11100"
+          },
+          {
+            "value": "10900"
+          },
+          {
+            "value": "13500"
+          }
+        ]
+      }
+    ]
+  }
+}

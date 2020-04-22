@@ -1,0 +1,31 @@
+{
+  "type": "msspline",
+  "renderAt": "chart-container",
+  "width": 1000,
+  "height": "600",
+  "dataFormat": "json",
+  "dataSource": {
+    "chart": {
+      "drawAnchors": 1,
+      "showvalues": 1,
+      "valueFontColor": "#000",
+      "formatNumberScale": 0,
+      "numberprefix": "",
+      "numbersuffix": "",
+      "showlegend": 1,
+      "legendPosition": "bottom",
+      "caption": "MSSPLINE SAMPLE",
+      "subcaption": "type:msspline",
+      "plottooltext": "Sales of $seriesName in $label was <b>$dataValue</b>",
+      "xaxisname": "X-axis title",
+      "labelDisplay": "AUTO",
+      "yaxisname": "Y-axis title",
+      "exportEnabled": "1",
+      "showhovereffect": "1",
+      "showsum": "0",
+      "theme": "fusion"
+    },
+    "categories": [],
+    "dataset": []
+  }
+}

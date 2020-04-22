@@ -1,0 +1,21 @@
+{
+  "type": "candlestick",
+  "renderAt": "chart-container",
+  "width": "100%",
+  "height": 600,
+  "dataFormat": "json",
+  "dataSource": {
+    "chart": {
+      "caption": "",
+      "subCaption": "",
+      "numberprefix": "",
+      "vNumberPrefix": " ",
+      "pyaxisname": "",
+      "vyaxisname": "",
+      "exportEnabled": 1,
+      "theme": "fusion"
+    },
+    "categories": [],
+    "dataset": []
+  }
+}

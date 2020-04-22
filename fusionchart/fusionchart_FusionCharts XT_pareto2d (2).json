@@ -1,0 +1,46 @@
+{
+  "type": "pareto2d",
+  "renderAt": "chart-container",
+  "width": "100%",
+  "height": "100%",
+  "dataFormat": "json",
+  "dataSource": {
+    "chart": {
+      "caption": " Top Hardware Defects Frequency",
+      "subcaption": "Last year - ACME Computers",
+      "theme": "fusion",
+      "yaxisname": "# reported instances",
+      "syaxisname": "% of total instances",
+      "decimals": "1",
+      "drawcrossline": "1",
+      "exportEnabled": 1,
+      "formatNumberScale": 0,
+      "showlegend": 1,
+      "legendPosition": "bottom",
+      "legendAllowDrag": "0",
+      "plotHighlightEffect": "fadeout|color=#D5DED9, alpha=50"
+    },
+    "data": [
+      {
+        "label": "Hard-Disk",
+        "value": "40"
+      },
+      {
+        "label": "PCB",
+        "value": "22"
+      },
+      {
+        "label": "Printer",
+        "value": "12"
+      },
+      {
+        "label": "CDROM",
+        "value": "10"
+      },
+      {
+        "label": "Keyboard",
+        "value": "6"
+      }
+    ]
+  }
+}

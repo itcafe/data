@@ -1,0 +1,44 @@
+{
+  "type": "pyramid",
+  "renderAt": "chart-container",
+  "width": "100%",
+  "height": "100%",
+  "dataFormat": "json",
+  "dataSource": {
+    "chart": {
+      "theme": "fusion",
+      "caption": "The Global Wealth Pyramid",
+      "subcaption": "Credit Suisse 2017",
+      "showvalues": "1",
+      "plottooltext": "<b>$label</b> of world population owns <b>$dataValue</b> of global wealth",
+      "exportEnabled": 1,
+      "formatNumberScale": 0,
+      "showlegend": 1,
+      "legendPosition": "bottom",
+      "legendAllowDrag": "0",
+      "plotHighlightEffect": "fadeout|color=#D5DED9, alpha=50"
+    },
+    "data": [
+      {
+        "label": "Top 32M",
+        "value": "128.7",
+        "color": "#fac854"
+      },
+      {
+        "label": "Next 391M",
+        "value": "111.4",
+        "color": "#ef8c95"
+      },
+      {
+        "label": "Next 1054M",
+        "value": "32.5",
+        "color": "#61c4e3"
+      },
+      {
+        "label": "Last 3474M",
+        "value": "7.6",
+        "color": "#79bf67"
+      }
+    ]
+  }
+}

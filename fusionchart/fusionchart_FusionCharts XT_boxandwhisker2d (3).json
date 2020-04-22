@@ -1,0 +1,74 @@
+{
+  "type": "boxandwhisker2d",
+  "title": "Ember FusionCharts Sample",
+  "width": 600,
+  "height": 400,
+  "dataFormat": "json",
+  "dataSource": {
+    "chart": {
+      "caption": "Quarterly Warehouse Inspections",
+      "subcaption": "Last Year<br>(showing rise and fall through connecting line)",
+      "palettecolors": "#5D62B5, #979AD0",
+      "theme": "fusion",
+      "showmean": "1",
+      "drawmeanconnector": "1",
+      "yaxisname": "Number of inspections",
+      "yaxismaxvalue": "265",
+      "yaxisminvalue": "20",
+      "plotspacepercent": "65",
+      "meaniconshape": "polygon",
+      "meaniconsides": "2",
+      "meaniconradius": "2",
+      "outliericonsides": "20",
+      "outliericonalpha": "50",
+      "outliericonshape": "triangle",
+      "outliericonradius": "4",
+      "mediancolor": "#FFFFFF",
+      "plottooltext": "<b>Distribution for $label:</b><br>Max: <b>$maxDataValue</b><br>Q3: <b>$Q3</b><br>Median: <b>$median</b><br>Q1: <b>$Q1</b><br>Min: <b>$minDataValue</b>",
+      "exportEnabled": 1,
+      "formatNumberScale": 0,
+      "showlegend": 1,
+      "legendPosition": "bottom",
+      "legendAllowDrag": "0",
+      "plotHighlightEffect": "fadeout|color=#D5DED9, alpha=50"
+    },
+    "categories": [
+      {
+        "category": [
+          {
+            "label": "Q1"
+          },
+          {
+            "label": "Q2"
+          },
+          {
+            "label": "Q3"
+          },
+          {
+            "label": "Q4"
+          }
+        ]
+      }
+    ],
+    "dataset": [
+      {
+        "seriesname": "Cellar",
+        "data": [
+          {
+            "value": "150,133,85,61,89,137",
+            "outliers": "259"
+          },
+          {
+            "value": "139,197,175,114,39,67,191"
+          },
+          {
+            "value": "200,107,197,239,53,26,97"
+          },
+          {
+            "value": "100,147,117,139,83,116,73"
+          }
+        ]
+      }
+    ]
+  }
+}

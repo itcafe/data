@@ -1,0 +1,94 @@
+{
+  "title": "Ember FusionCharts Sample",
+  "width": 600,
+  "height": 400,
+  "type": "inversemscolumn2d",
+  "dataFormat": "json",
+  "dataSource": {
+    "chart": {
+      "caption": "Race Timings - 100m",
+      "subcaption": "Mylan Sports Day",
+      "setadaptiveymin": "1",
+      "plottooltext": "<b>$label</b> finished race in <b>$dataValue</b>",
+      "theme": "fusion",
+      "exportEnabled": 1,
+      "formatNumberScale": 0,
+      "showlegend": 1,
+      "legendPosition": "bottom",
+      "legendAllowDrag": "0",
+      "plotHighlightEffect": "fadeout|color=#D5DED9, alpha=50"
+    },
+    "categories": [
+      {
+        "category": [
+          {
+            "label": "Philip"
+          },
+          {
+            "label": "Andrew"
+          },
+          {
+            "label": "Zach"
+          },
+          {
+            "label": "Steve"
+          },
+          {
+            "label": "Joshua"
+          },
+          {
+            "label": "Tom"
+          },
+          {
+            "label": "Adam"
+          },
+          {
+            "label": "Tony"
+          },
+          {
+            "label": "Chris"
+          },
+          {
+            "label": "Andy"
+          }
+        ]
+      }
+    ],
+    "dataset": [
+      {
+        "data": [
+          {
+            "value": "9.40"
+          },
+          {
+            "value": "9.95"
+          },
+          {
+            "value": "10.08"
+          },
+          {
+            "value": "10.30"
+          },
+          {
+            "value": "10.70"
+          },
+          {
+            "value": "11.00"
+          },
+          {
+            "value": "11.60"
+          },
+          {
+            "value": "12.10"
+          },
+          {
+            "value": "12.30"
+          },
+          {
+            "value": "13.85"
+          }
+        ]
+      }
+    ]
+  }
+}

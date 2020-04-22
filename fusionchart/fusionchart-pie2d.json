@@ -1,0 +1,21 @@
+{
+  "type": "pie2d",
+  "renderAt": "chart-container",
+  "width": "100%",
+  "height": 600,
+  "dataFormat": "json",
+  "dataSource": {
+    "chart": {
+      "caption": "",
+      "subcaption": "",
+      "plottooltext": "<b>$percentValue</b> $label",
+      "showlegend": "1",
+      "showpercentvalues": "1",
+      "legendposition": "bottom",
+      "usedataplotcolorforlabels": "1",
+      "theme": "fusion",
+      "exportEnabled": "1"
+    },
+    "data": []
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "type": "thermometer",
+  "renderAt": "chart-container",
+  "width": "100%",
+  "height": "100%",
+  "dataFormat": "json",
+  "dataSource": {
+    "chart": {
+      "caption": "Car Engine Temperature",
+      "subcaption": "(Per Quarter minute)",
+      "lowerlimit": "120",
+      "upperlimit": "200",
+      "numbersuffix": "°",
+      "thmfillcolor": "#008ee4",
+      "showgaugeborder": "1",
+      "gaugebordercolor": "#008ee4",
+      "gaugeborderthickness": "2",
+      "plottooltext": "Temperature: <b>$datavalue</b> ",
+      "theme": "fusion",
+      "showvalue": "1",
+      "exportEnabled": 1,
+      "formatNumberScale": 0,
+      "showlegend": 1,
+      "legendPosition": "bottom",
+      "legendAllowDrag": "0",
+      "plotHighlightEffect": "fadeout|color=#D5DED9, alpha=50"
+    },
+    "value": "140"
+  }
+}

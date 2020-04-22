@@ -1,0 +1,72 @@
+{
+  "type": "angularGauge",
+  "renderAt": "chart-container",
+  "width": "100%",
+  "height": "100%",
+  "dataFormat": "json",
+  "dataSource": {
+    "chart": {
+      "caption": "Angular Gauge",
+      "subcaption": "SAMPLE",
+      "lowerlimit": "0",
+      "upperlimit": "100",
+      "showvalue": "1",
+      "valueFontSize": 20,
+      "numbersuffix": "%",
+      "showtooltip": "1",
+      "majorTMNumber": "9",
+      "majorTMThickness": "2",
+      "minorTMNumber": "4",
+      "showLegend": 1,
+      "exportEnabled": 1,
+      "theme": "fusion",
+      "showlegend": 1,
+      "legendPosition": "bottom",
+      "legendAllowDrag": "0",
+      "plotHighlightEffect": "fadeout|color=#D5DED9, alpha=50"
+    },
+    "colorRange": {
+      "color": [
+        {
+          "minvalue": "0",
+          "maxvalue": "50",
+          "code": "#F2726F"
+        },
+        {
+          "minvalue": "50",
+          "maxvalue": "75",
+          "code": "#FFC533"
+        },
+        {
+          "minvalue": "75",
+          "maxvalue": "100",
+          "code": "#62B58F"
+        }
+      ]
+    },
+    "dials": {
+      "dial": [
+        {
+          "value": "31",
+          "tooltext": "Current customer satisfaction score is $value"
+        }
+      ]
+    },
+    "trendpoints": {
+      "point": [
+        {
+          "startValue": "62",
+          "displayValue": "Last Year",
+          "color": "#0075c2",
+          "thickness": "2",
+          "alpha": "100",
+          "valueInside": "0",
+          "dashed": "1",
+          "dashLen": "5",
+          "dashGap": "1",
+          "trendValueDistance": "3"
+        }
+      ]
+    }
+  }
+}

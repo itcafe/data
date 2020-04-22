@@ -1,0 +1,64 @@
+{
+  "type": "pyramid",
+  "renderAt": "chart-container",
+  "width": "100%",
+  "height": "100%",
+  "dataFormat": "json",
+  "dataSource": {
+    "chart": {
+      "theme": "fusion",
+      "caption": "Most Feared Things in LA",
+      "subcaption": "Source: Psych Survey",
+      "showvalues": "1",
+      "plottooltext": "<b>$dataValue</b> of people have a fear for <b>$label</b>",
+      "exportEnabled": 1,
+      "formatNumberScale": 0,
+      "showlegend": 1,
+      "legendPosition": "bottom",
+      "legendAllowDrag": "0",
+      "plotHighlightEffect": "fadeout|color=#D5DED9, alpha=50"
+    },
+    "data": [
+      {
+        "label": "Lonliness",
+        "value": "2"
+      },
+      {
+        "label": "Snakes",
+        "value": "2"
+      },
+      {
+        "label": "Losing People I Love",
+        "value": "3"
+      },
+      {
+        "label": "Clowns",
+        "value": "5"
+      },
+      {
+        "label": "People",
+        "value": "6"
+      },
+      {
+        "label": "Heights",
+        "value": "11"
+      },
+      {
+        "label": "Spiders and Other Bugs",
+        "value": "12"
+      },
+      {
+        "label": "Death",
+        "value": "17"
+      },
+      {
+        "label": "Failure",
+        "value": "18"
+      },
+      {
+        "label": "Others",
+        "value": "24"
+      }
+    ]
+  }
+}

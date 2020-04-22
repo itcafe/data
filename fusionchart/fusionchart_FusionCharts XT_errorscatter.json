@@ -1,0 +1,122 @@
+{
+  "type": "errorline",
+  "title": "Ember FusionCharts Sample",
+  "width": 600,
+  "height": 400,
+  "dataFormat": "json",
+  "dataSource": {
+    "chart": {
+      "caption": "Monthly temperature range - Central Region",
+      "numbersuffix": "°C",
+      "linethickness": "2",
+      "linedashed": "1",
+      "errorbarthickness": "3",
+      "showlegend": 1,
+      "halferrorbar": "0",
+      "plottooltext": "$seriesName in $label: $dataValue",
+      "theme": "fusion",
+      "exportEnabled": 1,
+      "formatNumberScale": 0,
+      "legendPosition": "bottom",
+      "legendAllowDrag": "0",
+      "plotHighlightEffect": "fadeout|color=#D5DED9, alpha=50"
+    },
+    "categories": [
+      {
+        "category": [
+          {
+            "label": "Jan"
+          },
+          {
+            "label": "Feb"
+          },
+          {
+            "label": "Mar"
+          },
+          {
+            "label": "Apr"
+          },
+          {
+            "label": "May"
+          },
+          {
+            "label": "Jun"
+          },
+          {
+            "label": "Jul"
+          },
+          {
+            "label": "Aug"
+          },
+          {
+            "label": "Sept"
+          },
+          {
+            "label": "Oct"
+          },
+          {
+            "label": "Nov"
+          },
+          {
+            "label": "Dec"
+          }
+        ]
+      }
+    ],
+    "dataset": [
+      {
+        "seriesname": "Temp",
+        "data": [
+          {
+            "value": "7",
+            "errorvalue": "2"
+          },
+          {
+            "value": "6",
+            "errorvalue": "3"
+          },
+          {
+            "value": "10",
+            "errorvalue": "2"
+          },
+          {
+            "value": "15",
+            "errorvalue": "2"
+          },
+          {
+            "value": "18",
+            "errorvalue": "3"
+          },
+          {
+            "value": "23",
+            "errorvalue": "2"
+          },
+          {
+            "value": "25",
+            "errorvalue": "2"
+          },
+          {
+            "value": "26",
+            "errorvalue": "3"
+          },
+          {
+            "value": "23",
+            "errorvalue": "2"
+          },
+          {
+            "value": "18",
+            "errorvalue": "3"
+          },
+          {
+            "value": "13",
+            "errorvalue": "2"
+          },
+          {
+            "value": "10",
+            "errorvalue": "2"
+          }
+        ]
+      }
+    ]
+  }
+}

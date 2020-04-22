@@ -1,0 +1,89 @@
+{
+  "type": "boxandwhisker2d",
+  "title": "Ember FusionCharts Sample",
+  "width": 600,
+  "height": 400,
+  "dataFormat": "json",
+  "dataSource": {
+    "chart": {
+      "caption": "Employee Distribution Across Different Departments",
+      "subcaption": "In Ascending Order by Median Age",
+      "sshowvalues": "0",
+      "palettecolors": "#5D62B5, #979AD0",
+      "yaxisname": "Age (years)",
+      "showmean": "1",
+      "showmedianvalues": "0",
+      "theme": "fusion",
+      "meaniconshape": "polygon",
+      "meaniconsides": "2",
+      "meaniconradius": "2",
+      "showalloutliers": "1",
+      "outliericonsides": "20",
+      "outliericonalpha": "40",
+      "outliericonshape": "triangle",
+      "outliericonradius": "4",
+      "yaxismaxvalue": "60",
+      "yaxisminvalue": "15",
+      "plotspacepercent": "60",
+      "plottooltext": "<b>Age Distribution for $label team:</b><br>Max: <b>$maxDataValue years</b><br>Q3: <b>$Q3 years</b><br>Median: <b>$median years</b><br>Q1: <b>$Q1 years</b><br>Min: <b>$minValue years</b>",
+      "exportEnabled": 1,
+      "formatNumberScale": 0,
+      "showlegend": 1,
+      "legendPosition": "bottom",
+      "legendAllowDrag": "0",
+      "plotHighlightEffect": "fadeout|color=#D5DED9, alpha=50"
+    },
+    "categories": [
+      {
+        "category": [
+          {
+            "label": "Marketing"
+          },
+          {
+            "label": "QA"
+          },
+          {
+            "label": "Admin"
+          },
+          {
+            "label": "Development"
+          },
+          {
+            "label": "Finance"
+          },
+          {
+            "label": "Sales"
+          }
+        ]
+      }
+    ],
+    "dataset": [
+      {
+        "seriesname": "Age",
+        "data": [
+          {
+            "value": "21, 23, 24, 35, 47"
+          },
+          {
+            "value": "24, 27, 29, 21, 25"
+          },
+          {
+            "value": "21, 20, 26, 27, 30"
+          },
+          {
+            "value": "23, 25, 21, 32, 36, 29, 31, 29, 29",
+            "outliers": "46"
+          },
+          {
+            "value": "31, 36, 37, 31, 29, 32, 34",
+            "outliers": "48, 22"
+          },
+          {
+            "value": "33, 37, 39, 29, 52, 47, 32, 35, 32, 34, 35, 31, 29, 38, 42",
+            "outliers": "20, 55"
+          }
+        ]
+      }
+    ]
+  }
+}

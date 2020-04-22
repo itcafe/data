@@ -1,0 +1,104 @@
+{
+  "title": "Ember FusionCharts Sample",
+  "width": 600,
+  "height": 400,
+  "type": "inversemsarea",
+  "dataFormat": "json",
+  "dataSource": {
+    "chart": {
+      "caption": "Average Fruit Consumption Per Week",
+      "subcaption": "Adam vs Eva",
+      "theme": "fusion",
+      "drawcrossline": "1",
+      "plotfillalpha": "50",
+      "plottooltext": "<b>$dataValue</b> fruits were consumed by $seriesName on <b>$label</b>",
+      "exportEnabled": 1,
+      "formatNumberScale": 0,
+      "showlegend": 1,
+      "legendPosition": "bottom",
+      "legendAllowDrag": "0",
+      "plotHighlightEffect": "fadeout|color=#D5DED9, alpha=50"
+    },
+    "categories": [
+      {
+        "category": [
+          {
+            "label": "Mon"
+          },
+          {
+            "label": "Tue"
+          },
+          {
+            "label": "Wed"
+          },
+          {
+            "label": "Thu"
+          },
+          {
+            "label": "Fri"
+          },
+          {
+            "label": "Sat"
+          },
+          {
+            "label": "Sun"
+          }
+        ]
+      }
+    ],
+    "dataset": [
+      {
+        "seriesname": "Adam",
+        "data": [
+          {
+            "value": "150"
+          },
+          {
+            "value": "125"
+          },
+          {
+            "value": "135"
+          },
+          {
+            "value": "200"
+          },
+          {
+            "value": "210"
+          },
+          {
+            "value": "180"
+          },
+          {
+            "value": "110"
+          }
+        ]
+      },
+      {
+        "seriesname": "Eva",
+        "data": [
+          {
+            "value": "200"
+          },
+          {
+            "value": "210"
+          },
+          {
+            "value": "190"
+          },
+          {
+            "value": "165"
+          },
+          {
+            "value": "170"
+          },
+          {
+            "value": "110"
+          },
+          {
+            "value": "180"
+          }
+        ]
+      }
+    ]
+  }
+}

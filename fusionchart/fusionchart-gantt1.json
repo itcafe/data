@@ -1,0 +1,31 @@
+{
+  "type": "gantt",
+  "renderAt": "chart-container",
+  "width": "100%",
+  "height": "100%",
+  "dataFormat": "json",
+  "dataSource": {
+    "chart": {
+      "caption": "Machine Operating",
+      "subcaption": "",
+      "theme": "fusion",
+      "dateformat": "yyyy/mm/dd hh:mn:ss",
+      "ganttPaneDuration": "",
+      "ganttPaneDurationUnit": "d",
+      "exportEnabled": 1,
+      "plottooltext": "<b>$label</b> {br} <b>$start - $end</b>"
+    },
+    "legend": {
+      "item": []
+    },
+    "tasks": {
+      "task": []
+    },
+    "processes": {
+      "isbold": "1",
+      "headertext": "Machines",
+      "process": []
+    },
+    "categories": []
+  }
+}

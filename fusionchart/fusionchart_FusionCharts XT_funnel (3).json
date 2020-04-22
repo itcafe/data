@@ -1,0 +1,51 @@
+{
+  "type": "funnel",
+  "renderAt": "chart-container",
+  "width": "100%",
+  "height": "100%",
+  "dataFormat": "json",
+  "dataSource": {
+    "chart": {
+      "caption": "Recruitment Analysis for Engineering Positions @ Peoplefy",
+      "subcaption": "For the year 2017",
+      "theme": "fusion",
+      "showlabels": "1",
+      "showvalues": "1",
+      "showpercentvalues": "1",
+      "streamlineddata": "0",
+      "plottooltext": "$label: <b>$dataValue</b>",
+      "exportEnabled": 1,
+      "formatNumberScale": 0,
+      "showlegend": 1,
+      "legendPosition": "bottom",
+      "legendAllowDrag": "0",
+      "plotHighlightEffect": "fadeout|color=#D5DED9, alpha=50"
+    },
+    "data": [
+      {
+        "label": "Applications Received",
+        "value": "3000"
+      },
+      {
+        "label": "CVs Shortlisted",
+        "value": "1500"
+      },
+      {
+        "label": "Cleared Machine Test",
+        "value": "1000"
+      },
+      {
+        "label": "Cleared Technical Rounds",
+        "value": "500"
+      },
+      {
+        "label": "Cleared Cultural Fit Round",
+        "value": "300"
+      },
+      {
+        "label": "Final Selection",
+        "value": "200"
+      }
+    ]
+  }
+}

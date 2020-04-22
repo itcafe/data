@@ -1,0 +1,89 @@
+{
+  "title": "Ember FusionCharts Sample",
+  "width": 600,
+  "height": 400,
+  "type": "logmscolumn2d",
+  "dataFormat": "json",
+  "dataSource": {
+    "chart": {
+      "caption": "Mass of all planets",
+      "subcaption": "Source: NASA Fact Sheet",
+      "theme": "fusion",
+      "base": "10",
+      "showlegend": 1,
+      "plottooltext": "$seriesName of <b>$label</b> is <b>$dataValue</b>",
+      "exportEnabled": 1,
+      "formatNumberScale": 0,
+      "legendPosition": "bottom",
+      "legendAllowDrag": "0",
+      "plotHighlightEffect": "fadeout|color=#D5DED9, alpha=50"
+    },
+    "categories": [
+      {
+        "category": [
+          {
+            "label": "Mercury"
+          },
+          {
+            "label": "Venus"
+          },
+          {
+            "label": "Earth"
+          },
+          {
+            "label": "Mars"
+          },
+          {
+            "label": "Jupiter"
+          },
+          {
+            "label": "Saturn"
+          },
+          {
+            "label": "Uranus"
+          },
+          {
+            "label": "Neptune"
+          },
+          {
+            "label": "Pluto"
+          }
+        ]
+      }
+    ],
+    "dataset": [
+      {
+        "seriesname": "Mass",
+        "data": [
+          {
+            "value": "0.330"
+          },
+          {
+            "value": "4.87"
+          },
+          {
+            "value": "5.97"
+          },
+          {
+            "value": "0.642"
+          },
+          {
+            "value": "1898"
+          },
+          {
+            "value": "568"
+          },
+          {
+            "value": "86.8"
+          },
+          {
+            "value": "102"
+          },
+          {
+            "value": "0.0146"
+          }
+        ]
+      }
+    ]
+  }
+}

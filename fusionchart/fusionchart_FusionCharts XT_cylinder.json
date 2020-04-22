@@ -1,0 +1,27 @@
+{
+  "type": "cylinder",
+  "renderAt": "chart-container",
+  "width": "100%",
+  "height": "100%",
+  "dataFormat": "json",
+  "dataSource": {
+    "chart": {
+      "caption": "LPG Level Indicator",
+      "lowerlimit": "0",
+      "upperlimit": "25",
+      "lowerlimitdisplay": "Empty",
+      "upperlimitdisplay": "Full",
+      "cylfillcolor": "#5D62B5",
+      "plottooltext": "LPG Consumption: <b>20 ltrs</b>",
+      "cylfillhoveralpha": "85",
+      "theme": "fusion",
+      "exportEnabled": 1,
+      "formatNumberScale": 0,
+      "showlegend": 1,
+      "legendPosition": "bottom",
+      "legendAllowDrag": "0",
+      "plotHighlightEffect": "fadeout|color=#D5DED9, alpha=50"
+    },
+    "value": "20"
+  }
+}

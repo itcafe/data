@@ -1,0 +1,103 @@
+{
+  "type": "msbar2d",
+  "renderAt": "chart-container",
+  "width": "100%",
+  "height": "100%",
+  "dataFormat": "json",
+  "dataSource": {
+    "chart": {
+      "caption": "Split of visitors by Channels",
+      "placevaluesinside": "1",
+      "showvalues": "0",
+      "plottooltext": "<b>$dataValue</b> visitors from $label in $seriesName",
+      "theme": "fusion",
+      "exportEnabled": 1,
+      "formatNumberScale": 0,
+      "showlegend": 1,
+      "legendPosition": "bottom",
+      "legendAllowDrag": "0",
+      "plotHighlightEffect": "fadeout|color=#D5DED9, alpha=50"
+    },
+    "categories": [
+      {
+        "category": [
+          {
+            "label": "Organic"
+          },
+          {
+            "label": "Offline Stores"
+          },
+          {
+            "label": "Email Campaigns"
+          },
+          {
+            "label": "Social Events"
+          },
+          {
+            "label": "Paid Channels"
+          }
+        ]
+      }
+    ],
+    "dataset": [
+      {
+        "seriesname": "2017",
+        "data": [
+          {
+            "value": "17000"
+          },
+          {
+            "value": "19500"
+          },
+          {
+            "value": "12500"
+          },
+          {
+            "value": "14500"
+          },
+          {
+            "value": "17500"
+          }
+        ]
+      },
+      {
+        "seriesname": "2018",
+        "data": [
+          {
+            "value": "25400"
+          },
+          {
+            "value": "29800"
+          },
+          {
+            "value": "21800"
+          },
+          {
+            "value": "19500"
+          },
+          {
+            "value": "21200"
+          }
+        ]
+      }
+    ],
+    "trendlines": [
+      {
+        "line": [
+          {
+            "startvalue": "16200",
+            "color": "#5D62B5",
+            "thickness": "1.5",
+            "displayvalue": "2017's Avg."
+          },
+          {
+            "startvalue": "23500",
+            "color": "#29C3BE",
+            "thickness": "1.5",
+            "displayvalue": "2018's Avg."
+          }
+        ]
+      }
+    ]
+  }
+}

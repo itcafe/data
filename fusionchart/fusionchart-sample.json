@@ -1,0 +1,21 @@
+{
+  "type": "pie2d",
+  "width": "1000",
+  "height": "1000",
+  "dataFormat": "json",
+  "dataSource": {
+    "chart": {
+      "showvalues": "0",
+      "caption": "Apple's Revenue & Profit",
+      "subcaption": "(2013-2016)",
+      "numberprefix": "$",
+      "numbersuffix": "B",
+      "plottooltext": "Sales of $seriesName in $label was <b>$dataValue</b>",
+      "showhovereffect": "1",
+      "yaxisname": "$ (In billions)",
+      "showsum": "1",
+      "theme": "fusion"
+    },
+    "data": []
+  }
+}

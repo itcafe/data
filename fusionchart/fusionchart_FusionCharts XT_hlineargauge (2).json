@@ -1,0 +1,59 @@
+{
+  "type": "hlineargauge",
+  "renderAt": "chart-container",
+  "width": "100%",
+  "height": "100%",
+  "dataFormat": "json",
+  "dataSource": {
+    "chart": {
+      "caption": "Customer Satisfaction Score",
+      "subcaption": "Current week - Garden Groove Harbour",
+      "theme": "fusion",
+      "showvalue": "0",
+      "pointerbghovercolor": "#ffffff",
+      "pointerbghoveralpha": "80",
+      "pointerhoverradius": "12",
+      "showborderonhover": "1",
+      "pointerborderhovercolor": "#333333",
+      "pointerborderhoverthickness": "2",
+      "showtickmarks": "0",
+      "numbersuffix": "%",
+      "exportEnabled": 1,
+      "formatNumberScale": 0,
+      "showlegend": 1,
+      "legendPosition": "bottom",
+      "legendAllowDrag": "0",
+      "plotHighlightEffect": "fadeout|color=#D5DED9, alpha=50"
+    },
+    "colorrange": {
+      "color": [
+        {
+          "minvalue": "0",
+          "maxvalue": "35",
+          "label": "Low",
+          "code": "#e44a00"
+        },
+        {
+          "minvalue": "35",
+          "maxvalue": "70",
+          "label": "Moderate",
+          "code": "#f8bd19"
+        },
+        {
+          "minvalue": "70",
+          "maxvalue": "100",
+          "label": "High",
+          "code": "#6baa01"
+        }
+      ]
+    },
+    "pointers": {
+      "pointer": [
+        {
+          "value": "72.5",
+          "tooltext": "Higher degree of satisfaction score of $datavalue  "
+        }
+      ]
+    }
+  }
+}

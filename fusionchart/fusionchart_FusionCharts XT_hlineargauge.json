@@ -1,0 +1,50 @@
+{
+  "type": "hlineargauge",
+  "renderAt": "chart-container",
+  "width": "100%",
+  "height": "100%",
+  "dataFormat": "json",
+  "dataSource": {
+    "chart": {
+      "caption": "Electromagnetic Water Flow Meter",
+      "subcaption": "Pressure Reading",
+      "gaugefillmix": "{dark-20},{light+70},{dark-10}",
+      "theme": "fusion",
+      "exportEnabled": 1,
+      "formatNumberScale": 0,
+      "showlegend": 1,
+      "legendPosition": "bottom",
+      "legendAllowDrag": "0",
+      "plotHighlightEffect": "fadeout|color=#D5DED9, alpha=50"
+    },
+    "colorrange": {
+      "color": [
+        {
+          "minvalue": "0",
+          "maxvalue": "5",
+          "label": "Below{br}Average",
+          "code": "#F2726F"
+        },
+        {
+          "minvalue": "5",
+          "maxvalue": "7.5",
+          "label": "Average",
+          "code": "#FFC533"
+        },
+        {
+          "minvalue": "7.5",
+          "maxvalue": "10",
+          "label": "High",
+          "code": "#62B58F"
+        }
+      ]
+    },
+    "pointers": {
+      "pointer": [
+        {
+          "value": "5"
+        }
+      ]
+    }
+  }
+}
