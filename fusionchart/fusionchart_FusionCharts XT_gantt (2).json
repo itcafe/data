@@ -13,7 +13,7 @@
       "canvasborderalpha": "40",
       "ganttlinealpha": "50",
       "plottooltext": "$PercentComplete complete",
-      "exportEnabled": 1,
+      "exportEnabled": 0,
       "formatNumberScale": 0,
       "showlegend": 1,
       "legendPosition": "bottom",
