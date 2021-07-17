@@ -12,7 +12,7 @@
       "rotatelabels": "1",
       "setadaptiveymin": "1",
       "theme": "fusion",
-      "exportEnabled": 1,
+      "exportEnabled": 0,
       "formatNumberScale": 0,
       "showlegend": 1,
       "legendPosition": "bottom",
